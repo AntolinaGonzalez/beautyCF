@@ -15,7 +15,7 @@
       <div class="header">
         <img src="./assets/images/Artboard_63-512.png" alt="" />
         <nav>
-          <a href="">BlOG</a>
+          <a routerLink='/hola'>BlOG</a>
           <a href="">RESEÑAS</a>
           <a href="">CONTACTO</a>
           <a href="">PRODUCTOS</a>
@@ -23,26 +23,9 @@
         </nav>
       </div>
     </header>
-    <div class="cover">
-      <img src="./assets/images/cover-photo.jpg" alt="" />
-      <p class="img-text">
-        Página destinada a crear conciencia sobre el maltrato animal ofreciendo
-        marcas de productos que no son testeados en animales
-      </p>
-    </div>
     <!-- cover -->
-    <main class="container">
-      <!-- productos -->
-      <div class="list-products">
-        <div class="nav-products">
-          <a href="">Cuidado Corporal</a>
-          <a href="">Cuidado Capilar</a>
-          <a href="">Maquillaje</a>
-        </div>
-        <div class="products">
-          <p class="title">~ Productos ~</p>
-        </div>
-      </div>
-    </main>
+    
+    <router-outlet></router-outlet>
+
   </body>
 </html>

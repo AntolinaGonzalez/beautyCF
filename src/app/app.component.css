@@ -3,10 +3,6 @@ body {
   margin: -8px;
   font-family: "Arvo", serif;
 }
-/* container */
-.container {
-  margin-left: 50px;
-}
 /* header*/
 .header {
   display: grid;
@@ -27,47 +23,6 @@ body {
   font-size: 18px;
   top: 50%;
 }
-/* cover */
-.cover {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-.cover img {
-  width: 100%;
-}
-.img-text {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-  width: 50%;
-  background-color: brown;
-}
-/* products*/
-.list-products {
-  display: grid;
-  grid-template-columns: 1fr 5fr;
-}
-.nav-products {
-  margin-top: 25%;
-  display: grid;
-  grid-template-rows: auto;
-  border: solid lightcoral;
-}
-.nav-products a{
-  border-bottom: solid lightcoral;
-  text-decoration: none;
-  color:black;
-  padding: 7px;
-}
-.nav-products a:last-child{
-  border: none;
-}
-.products{
-  margin-left: 30px;
-}
-.title{
-  font-size: 27px;
-  color: brown;
-  font-weight: bold;
-}
+
+
+

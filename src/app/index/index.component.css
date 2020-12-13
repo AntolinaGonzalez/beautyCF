@@ -1,0 +1,18 @@
+.container {
+  margin-left: 50px;
+}
+.cover {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.cover img {
+  width: 100%;
+}
+.img-text {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  width: 50%;
+  background-color: brown;
+}

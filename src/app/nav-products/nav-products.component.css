@@ -1,0 +1,28 @@
+
+.list-products {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+.nav-products {
+  margin-top: 25%;
+  display: grid;
+  grid-template-rows: auto;
+  border: solid lightcoral;
+}
+.nav-products a{
+  border-bottom: solid lightcoral;
+  text-decoration: none;
+  color:black;
+  padding: 7px;
+}
+.nav-products a:last-child{
+  border: none;
+}
+.products{
+  margin-left: 30px;
+}
+.title{
+  font-size: 27px;
+  color: brown;
+  font-weight: bold;
+}
