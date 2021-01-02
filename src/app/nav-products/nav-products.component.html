@@ -8,6 +8,20 @@
     </div>
     <div class="products">
       <p class="title">~ Productos ~</p>
+      <p class="aclaracion">
+        Los productos <span>cruelty free</span> no utilizan animales para llevar
+        a cabo sus testeos pero, eso no quita que contenga ingredientes de
+        origen animal. Los productos que sean veganos y cruelty free seran
+        aclarados
+      </p>
+      <h2>Requesty</h2>
+      <ul>
+        <li *ngFor="let product of products">
+          <p>hola</p>
+          <p>{{product.name}}</p>
+        </li>
+      </ul>
+      <app-corporal-care></app-corporal-care>
     </div>
   </div>
 </main>

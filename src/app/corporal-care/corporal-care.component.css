@@ -1,0 +1,14 @@
+.single-product{
+  align-items: center;
+}
+.single-product img {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  margin: auto;
+}
+.product-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 17px;
+}

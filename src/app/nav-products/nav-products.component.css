@@ -1,28 +1,35 @@
-
 .list-products {
   display: grid;
   grid-template-columns: 1fr 5fr;
 }
 .nav-products {
   margin-top: 25%;
-  display: grid;
-  grid-template-rows: auto;
   border: solid lightcoral;
+  height: fit-content;
 }
-.nav-products a{
+.nav-products a {
+  display: grid;
   border-bottom: solid lightcoral;
   text-decoration: none;
-  color:black;
+  color: black;
   padding: 7px;
 }
-.nav-products a:last-child{
+.nav-products a:last-child {
   border: none;
 }
-.products{
+
+.products {
   margin-left: 30px;
 }
-.title{
+.title {
   font-size: 27px;
   color: brown;
+  font-weight: bold;
+}
+.aclaracion {
+  color: black;
+  font-size: 15px;
+}
+.aclaracion span {
   font-weight: bold;
 }
