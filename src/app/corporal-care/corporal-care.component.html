@@ -1,4 +1,15 @@
-<div class="">
+<div>
+  <p>abajo estan los productos</p>
+  <div class="col-4" *ngFor="let product of products">
+    {{product.type}}
+    <!-- <div class="single-product">
+      <img src="../../assets/images/natura-cremanutritiva.jpeg" alt="" />
+      <p class="product-title">{{product.name}}</p>
+      <p>Linea: {{product.name}}</p>
+    </div> -->
+  </div>
+</div>
+<div >
   <div class="row">
     <div class="col-4">
       <div class="single-product">

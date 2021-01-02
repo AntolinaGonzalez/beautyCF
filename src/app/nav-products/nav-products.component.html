@@ -2,9 +2,11 @@
   <!-- productos -->
   <div class="list-products">
     <div class="nav-products">
-      <a href="">Cuidado Corporal</a>
-      <a href="">Cuidado Capilar</a>
-      <a href="">Maquillaje</a>
+      <p *ngFor="let item of navItems" class="items"
+      [class.selected]='item=== selectedType'
+      (click)='onSelect(item)'>
+        <a>{{item.name}}</a>
+      </p>
     </div>
     <div class="products">
       <p class="title">~ Productos ~</p>
@@ -14,14 +16,8 @@
         origen animal. Los productos que sean veganos y cruelty free seran
         aclarados
       </p>
-      <h2>Requesty</h2>
-      <ul>
-        <li *ngFor="let product of products">
-          <p>hola</p>
-          <p>{{product.name}}</p>
-        </li>
-      </ul>
-      <app-corporal-care></app-corporal-care>
+      
+      <app-corporal-care [item]='selectedType'></app-corporal-care>
     </div>
   </div>
 </main>

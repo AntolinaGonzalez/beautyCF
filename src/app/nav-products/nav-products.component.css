@@ -3,21 +3,16 @@
   grid-template-columns: 1fr 5fr;
 }
 .nav-products {
-  margin-top: 25%;
+  margin-top: 15%;
   border: solid lightcoral;
   height: fit-content;
 }
-.nav-products a {
-  display: grid;
+.nav-products p{
   border-bottom: solid lightcoral;
-  text-decoration: none;
-  color: black;
-  padding: 7px;
 }
-.nav-products a:last-child {
+.nav-products p:last-child{
   border: none;
 }
-
 .products {
   margin-left: 30px;
 }
@@ -32,4 +27,9 @@
 }
 .aclaracion span {
   font-weight: bold;
+}
+.items{
+  padding: 13px;
+  text-align: center;
+  margin-bottom: 0;
 }
