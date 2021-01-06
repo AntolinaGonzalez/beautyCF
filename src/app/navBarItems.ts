@@ -11,6 +11,6 @@ export const navItems: Items[] = [
   },
   {
     name: "Maquillaje",
-    cod: "makeUp",
+    cod: "makeup",
   },
 ];

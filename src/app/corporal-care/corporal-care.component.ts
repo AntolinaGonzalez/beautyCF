@@ -20,7 +20,7 @@ export class CorporalCareComponent implements OnChanges {
   @Input() item!: Items;
   ngOnInit(): void {
     if (!this.item) {
-      this.productsService.getProducts().subscribe((data) => {
+      this.productsService.getProductsType('corporal').subscribe((data) => {
         this.products = data;
       });
     }

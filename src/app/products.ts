@@ -4,5 +4,6 @@ export interface Products {
   price: number;
   name: string;
   line: string;
-  marca:string
+  marca:string;
+  imageUrl:string;
 }
