@@ -1,8 +1,8 @@
 <div class="row">
   <div *ngFor="let product of products">
-    <div class="col-4">
+    <div class="col">
       <div class="single-product">
-        <img src=`${{product.imageUrl}`  alt="" />
+        <img [attr.src]="product.imageUrl" alt="" />
         <p class="product-title">{{product.name}}</p>
         <p>{{product.line}}</p>
       </div>

@@ -1,5 +1,6 @@
 .single-product{
   align-items: center;
+  width: 250px;
 }
 .single-product img {
   height: 200px;
